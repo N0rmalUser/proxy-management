@@ -1,6 +1,6 @@
 Option Explicit
 Dim valUserIn, objShell, RegLocate, ProxyAddress
-ProxyAddress = 8.8.8.8:11
+ProxyAddress = "8.8.8.8:11"
 Set objShell = WScript.CreateObject("WScript.Shell")
 On Error Resume Next
 If MsgBox("Enable proxy?",4,"Cloaked Select")=vbYes Then
