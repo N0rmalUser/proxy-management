@@ -1,6 +1,3 @@
 # proxy-management
 
-#### Если вы используете только 1 прокси, то нужно скачать только setup.exe
-
-Файл proxy.vbs - открывает диалоговое окно, а enable.vbs и disable.vbs включают и выключают напрямую.
-Если нужно использовать несколько адресов прокси, то нужно изменить в файлах из папки changeable, нужно поменять значение переменной адреса прокси на своё
+When the proxy is turned off, the icon in the context menu looks like a cross, and when turned on, like a circle.
